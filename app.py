@@ -18,3 +18,4 @@ def predict(message, history):
     return gpt_response.content
 
 gr.ChatInterface(predict).launch(share=True)
+
